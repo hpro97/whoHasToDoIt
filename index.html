@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>WhoHasToDoIt</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <section id="banner">
+      <div class="box">
+         <h1>
+            Edmunson's can't be fucked warehouse picker
+         </h1>
+      </div>
+   </section>
+
+   <section id="task">
+      <div class="container">
+         <h2>
+            Pick a task
+         </h2>
+         <input type="text" id="taskInput">
+      </div>
+   </section>
+
+   <section id="names">
+      <div class="nameContainer">
+         <h2>
+            Pick names to include
+         </h2>
+         <div id="namesList">
+            <div class="row">
+               <input type="checkbox" class="nameInput" id="joe" name="joe" value="joe">
+               <label for="joe">joe</label>
+
+               <input type="checkbox" class="nameInput" id="blung" name="blung" value="blung">
+               <label for="blung">blung</label>
+
+               <input type="checkbox" class="nameInput" id="harry" name="harry" value="harry">
+               <label for="harry">harry</label>
+
+               <input type="checkbox" class="nameInput" id="doyle" name="doyle" value="doyle">
+               <label for="doyle">doyle</label>
+            </div>
+            <div class="row">
+               <input type="checkbox" class="nameInput" id="ruth" name="ruth" value="ruth">
+               <label for="ruth">ruth</label>
+
+               <input type="checkbox" class="nameInput" id="gaz" name="gaz" value="gaz">
+               <label for="gaz">gaz</label>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="button">
+      <div class="buttonContainer">
+         <button id="go">Go</button>
+      </div>
+   </section>
+
+   <section id="result">
+      <div class="loaderContainer">
+         <div id="loader">
+         </div>
+      </div>
+   </section>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- to do:
+convert JS to typescript and rewrite
+add styling in css -->

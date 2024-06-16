@@ -1,0 +1,93 @@
+:root {
+   --Color-Primary: #136077;
+   --Color-Secondary: rgba(243, 95, 19, 0.9);
+   --Color-Text: #ffffff;
+}
+
+body {
+   background-color: var(--Color-Primary);
+   color: var(--Color-Text);
+}
+
+.box {
+   background-color: var(--Color-Secondary);
+   padding: 1rem;
+   border-radius: 3rem;
+   text-align: center;
+   margin: 1rem auto;
+   width: 80%;
+}
+
+.container {
+   text-align: center;
+   margin: 0.5rem auto;
+   width: 80%;
+   padding: 0.5rem;
+   border-radius: 1rem;
+}
+
+#taskInput {
+   padding: 1rem;
+   font-size: 1rem;
+   border-radius: 0.7rem;
+   width: 80%;
+}
+
+.nameContainer {
+   text-align: center;
+   margin: 0.2rem auto;
+}
+
+.nameInput {
+   margin: 0.2rem;
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+
+label {
+   margin: 1rem;
+   font-size: 0.7rem;
+}
+
+.buttonContainer {
+   text-align: center;
+}
+
+#go {
+   color: #ffffff;
+   padding: 0.5rem;
+   font-size: 1.5rem;
+   border-radius: 3rem;
+   width: 30%;
+   margin: 0.5rem auto;
+   background-color: var(--Color-Secondary);
+}
+
+#result {
+   text-align: center;
+   margin: 0.5rem auto;
+   width: 80%;
+}
+
+.loaderContainer {
+   width: 100%;
+   font-size: 1.4rem;
+   margin: 1rem auto;
+   text-align: center;
+   white-space: normal;
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+}
+
+
+
+section {
+   margin-top: 0.5rem;
+   margin-bottom: 1rem;
+}
